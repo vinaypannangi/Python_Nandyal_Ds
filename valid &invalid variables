@@ -1,0 +1,136 @@
+#Valid Variables
+
+XYZ = 15
+print(XYZ) 
+print(type(XYZ))
+
+J64= "Vinay"
+print(J64)
+print(type(J64))
+
+S74= "pandu"
+print(S74)
+print(type(S74))
+
+Num=12345
+print(Num)
+print(type(Num))
+
+A11=None
+print(A11)    #None type
+print(type(A11))
+
+
+MAX= 50
+print(MAX)
+print(type(MAX))
+
+Min=25
+print(Min)
+print(type(Min))
+
+jay=19+6j
+print(jay)      #complex data type
+print(type(jay))
+
+Age= 20
+print(Age)
+print(type(Age))
+  
+_dsp='''Data science with python'''
+print(_dsp)
+print(type(_dsp))
+
+Name="Vicky"
+print(Name)
+print(type(Name))
+
+Weight=46
+print((Weight))
+print(type(Weight))
+
+a=20
+b=40
+print(id(a),id(b))
+print(type(a),type(b))
+
+Suk= "Crush"
+print(id(Suk))
+print(type(Suk))
+
+data= 9.85
+print(data)
+print(id(data))    # flaot Type
+print(type(data))
+
+String="Amma"
+print(id(String))           #String Type
+print(type(String))
+
+Marks=90
+print(id(Marks))           #interger Type
+print(type(Marks))
+
+Is_student=True
+print(id(Is_student))         #Boolean Type
+print(type(Is_student))
+
+List=[20,45,87,90]
+print(List)
+print(id(List))            #ListType
+print(type(List))
+
+Tuple=(1,3,5,7,9)
+print(Tuple)              #Tuple Type
+print(type(Tuple))
+
+S={2,4,6,8}     
+print(S)                    #set Type
+print(type(S))
+
+D={"Name":"Vinay", "Course":"BSC", "Age":19, "Roll No":160}
+print(D)
+print(type(D))   #Dictionary Type
+print(id(D))
+
+for i in range(1,9):
+	print(i,end=" ")   #Range Type
+
+
+
+#Not valid Variables
+ 
+# 113= 'J'
+#print(113)
+
+#123= 75
+#print=(123)
+
+#&@#='Vinay'
+#print(&@#)
+ 
+#$235=''Sir''
+# print($235)
+
+#&_%646= python
+#print(&_%646)
+
+#64j=name
+#print(64j)
+
+
+#f5ugf=75
+#print(f5ugf)
+
+#jiya=byi
+#print(jiya)
+
+
+#%&="@%•"
+#print(%&)
+
+#uji = 7r5
+#print(uji)
+ 
+#$uk = c7sj
+#print($uk)
