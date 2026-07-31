@@ -1,0 +1,38 @@
+Dict={"Name":"Vinay", "Course":"BSC", "Roll no":160, "Age":19}
+
+#using methods in dictionary
+#1.keys()
+print(Dict.keys())
+
+#2.Values()
+print(Dict.values())
+
+#3.items()
+print(Dict.items())
+
+#4.get()
+print(Dict.get("Name"))
+
+#5.update()
+Dict.update({"Age":20})
+print(Dict)
+
+#6.pop()
+Dict.pop("Roll no")
+print(Dict)
+
+#7.popitem()
+Dict.popitem()
+print(Dict)
+
+#8.copy()
+new_Dict=Dict.copy
+print(new_Dict)
+
+#9.setdefault
+print(Dict.setdefault("City","Nandyal"))
+print(Dict)
+
+#10.clear
+Dict.clear()
+print(Dict)
