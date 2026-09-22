@@ -1,0 +1,15 @@
+import time
+f1=open("Ihub_vinay.txt","r")
+print()
+print("====File information====")
+print("File name is:",f1.name)
+print("mode of the file is:",f1.mode)
+print("File is closed or not:",f1.closed)
+print("File is readable or not:",f1.readable())
+print("File is writable or not:",f1.writable())
+print("====================================")
+f1.close()
+print()
+time.sleep(2)
+print("End of an application")
+

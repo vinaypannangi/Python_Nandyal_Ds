@@ -1,0 +1,53 @@
+# import time
+# f1=open("lput.txt","w")
+# f1.write('12345\n')
+# f1.write('54321\n')
+# f1.write('22331\n')
+# f1.write('Cse branch\n')
+# print()
+# print('a file with its content is created successfully on desktop')
+# f1.close()
+# print()
+# time.sleep(2)
+# print('End of an application')
+
+# import time
+# f1=open("lput.txt","w")
+# f1.write('abc\n')
+# f1.write('jkl\n')
+# f1.write('money\n')
+# f1.write('bsc branch\n')
+# print()
+# print('a file with its content is created successfully on desktop')
+# f1.close()
+# print()
+# time.sleep(2)
+# print('End of an application')
+
+# import time
+# f1=open("lput.txt","a")
+# f1.write('abc\n')
+# f1.write('jkl\n')
+# f1.write('money\n')
+# f1.write('bsc branch\n')
+# print()
+# print('a file with its content is created successfully on desktop')
+# f1.close()
+# print()
+# time.sleep(2)
+# print('End of an application')
+
+import time
+f1=open("lput.txt","x")
+f1.write('a\n')
+f1.write('b\n')
+f1.write('c\n')
+f1.write('bsc branch\n')
+print()
+print('a file with its content is created successfully on desktop')
+f1.close()
+print()
+time.sleep(2)
+print('End of an application')
+
+
